@@ -1,10 +1,8 @@
-			body
-			{
+			body {
 			  background: #080808;
 			}
 
-			#wrap
-			{
+			#wrap {
 			  background: #222;
 			  box-shadow: inset 0 0 0 1px #404040, 0 0 0 1px #000;
 			  left: 50%;
@@ -15,20 +13,17 @@
 			  transition: opacity 1.5s;
 			}
 
-			.loaded #wrap
-			{
+			.loaded #wrap {
 			  opacity: 1;
 			}
 
-			#wrap-inner
-			{
+			#wrap-inner {
 			  background: #000;
 			  overflow: hidden;
 			  position: relative;
 			}
 
-			canvas
-			{
+			canvas {
 			  cursor: crosshair;
 			  display: block;
 			  left: 0;
@@ -36,20 +31,17 @@
 			  top: 0;
 			}
 
-			.joystick
-			{
+			.joystick {
 			  width: 120px;
 			  height: 120px;
 			  position: absolute;
 			  top: calc(60% - 60px);
 			}
 
-			#left-joystick.joystick
-			{
+			#left-joystick.joystick {
 			  left: 90px;
 			}
 
-	    #right-joystick.joystick
-			{
+			#right-joystick.joystick {
 			  right: 90px;
 			}
